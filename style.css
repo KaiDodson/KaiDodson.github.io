@@ -1,0 +1,59 @@
+
+
+html, body {
+	background-color: #35393C;
+	cursor: none;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background-color: #354F52;
+	border-radius: 15px;
+	width: 200px;
+	height: 300px;
+}
+
+.centered h1 {
+	color: #1cb000;
+}
+
+.centered p {
+	color: #1cb000;
+}
+
+#trailer {
+	height: 20px;
+	width: 20px;
+	background-color: #7df9ff;
+	border-radius: 20px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 10000;
+	pointer-events: none;
+	transition: opacity 500ms ease;
+}
+
+body:hover > #trailer {
+	opacity: 1;
+}
+
+
+a {
+	color: #1cb000;
+	text-decoration: none;
+	transition: all 0.45s ease;
+	cursor: none;
+}
+
+a:visited {
+	color: #1cb000;
+}
+
+a:hover {
+	color: #29FF00;
+}
