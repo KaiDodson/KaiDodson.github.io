@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLAS100 Gameshow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="score team1">Team 1: <span id="score1">0</span></div>
+      <h1>CLAS100 - KVD00 && ECA01</h1>
+      <div class="score team2">Team 2: <span id="score2">0</span></div>
+    </header>
+
+    <main>
+      <div id="question-container">
+        <h2 id="question-text">Loading question...</h2>
+        <div class="answers">
+          <button class="answer-btn" data-index="0"></button>
+          <button class="answer-btn" data-index="1"></button>
+          <button class="answer-btn" data-index="2"></button>
+          <button class="answer-btn" data-index="3"></button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <button id="prev-btn">Previous</button>
+      <button id="next-btn">Next</button>
+      <button id="reveal-btn">Reveal Answer</button>
+    </footer>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

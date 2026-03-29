@@ -1,0 +1,94 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.answer-btn {
+  padding: 2rem;
+  font-size: 1.1rem;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  background: white;
+  transition: 0.3s;
+  position: relative;
+}
+
+.answer-btn.selected-team1 {
+  background: yellow;
+}
+
+.answer-btn.selected-team2 {
+  background: blue;
+  color: white;
+}
+
+.answer-btn.both-selected {
+  background: linear-gradient(to right, yellow 50%, blue 50%);
+  color: white;
+}
+
+.answer-btn.correct {
+  background: #a8e6a2 !important;
+}
+
+.answer-btn.wrong {
+  background: #f4a8a8 !important;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#reveal-btn {
+  background: #333;
+  color: white;
+}
