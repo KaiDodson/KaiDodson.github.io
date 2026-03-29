@@ -31,9 +31,9 @@ const questions = [
   {
     question: "Who keeps Odysseus captive on her island for several years?",
     answers: [
-      { text: "Calypso", correct: true },
       { text: "Circe", correct: false },
       { text: "Penelope", correct: false },
+      { text: "Calypso", correct: true },
       { text: "Nausicaa", correct: false }
     ]
   },
@@ -133,9 +133,9 @@ const questions = [
   {
     question: "Which servant betrays Odysseus by helping the suitors?",
     answers: [
-      { text: "Melanthius", correct: true },
       { text: "Eumaeus", correct: false },
       { text: "Philoetius", correct: false },
+      { text: "Melanthius", correct: true },
       { text: "Argos", correct: false }
     ]
   }
