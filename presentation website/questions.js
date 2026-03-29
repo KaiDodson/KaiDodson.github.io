@@ -12,17 +12,17 @@ const questions = [
   {
     question: "Who is Odysseus’ son?",
     answers: [
-      { text: "Telemachus", correct: true },
       { text: "Achilles", correct: false },
       { text: "Agamemnon", correct: false },
+      { text: "Telemachus", correct: true },
       { text: "Paris", correct: false }
     ]
   },
   {
     question: "Which goddess helps Odysseus throughout the epic?",
     answers: [
-      { text: "Athena", correct: true },
       { text: "Hera", correct: false },
+      { text: "Athena", correct: true },
       { text: "Aphrodite", correct: false },
       { text: "Artemis", correct: false }
     ]
@@ -40,17 +40,17 @@ const questions = [
   {
     question: "What disguise does Athena take to guide Telemachus?",
     answers: [
-      { text: "Mentor", correct: true },
       { text: "Hermes", correct: false },
       { text: "Apollo", correct: false },
-      { text: "Nestor", correct: false }
+      { text: "Nestor", correct: false },
+      { text: "Mentor", correct: true }
     ]
   },
   {
     question: "What creature does Odysseus blind?",
     answers: [
-      { text: "Polyphemus the Cyclops", correct: true },
       { text: "The Minotaur", correct: false },
+      { text: "Polyphemus the Cyclops", correct: true },
       { text: "Scylla", correct: false },
       { text: "Charybdis", correct: false }
     ]
@@ -68,9 +68,9 @@ const questions = [
   {
     question: "Which land do the Lotus-Eaters inhabit?",
     answers: [
-      { text: "A land where people forget home after eating lotus", correct: true },
       { text: "A warlike island ruled by giants", correct: false },
       { text: "A desert kingdom with no food", correct: false },
+      { text: "A land where people forget home after eating lotus", correct: true },
       { text: "A frozen northern island", correct: false }
     ]
   },
@@ -96,17 +96,17 @@ const questions = [
   {
     question: "Who is the loyal swineherd who helps Odysseus?",
     answers: [
-      { text: "Eumaeus", correct: true },
       { text: "Eurycleia", correct: false },
       { text: "Antinous", correct: false },
-      { text: "Melanthius", correct: false }
+      { text: "Melanthius", correct: false },
+      { text: "Eumaeus", correct: true }
     ]
   },
   {
     question: "Who recognises Odysseus by his scar?",
     answers: [
-      { text: "Eurycleia", correct: true },
       { text: "Penelope", correct: false },
+      { text: "Eurycleia", correct: true },
       { text: "Telemachus", correct: false },
       { text: "Laertes", correct: false }
     ]
@@ -124,10 +124,10 @@ const questions = [
   {
     question: "What object does Odysseus use to prove his identity to Telemachus?",
     answers: [
-      { text: "Athena transforms him back from a beggar", correct: true },
       { text: "His sword from Troy", correct: false },
       { text: "A letter from Penelope", correct: false },
-      { text: "A ring from Laertes", correct: false }
+      { text: "A ring from Laertes", correct: false },
+      { text: "Athena transforms him back from a beggar", correct: true }
     ]
   },
   {
